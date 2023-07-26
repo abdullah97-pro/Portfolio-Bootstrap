@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+#headline {
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    background-color: var(--white);
+    background-image: url(./desktop/Header\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    border-radius: 0 0 0 80px;
+    padding: 400px 0;
+  }

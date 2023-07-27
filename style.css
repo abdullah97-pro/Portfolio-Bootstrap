@@ -1,35 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-    --background-main: #f0f2f5;
-    --white: #fff;
-    --black: #000;
-    --primary-1: #6070ff;
-    --color2: #172b4d;
-    --color3: #344563;
-    --color4: #7f8cff;
-    --color5: #7a869a;
-    --color6: #ebebff;
-    --color7: #dfe1e6;
-    --color8: #f4f5f7;
-    --color9: #f7f7f9;
-    --color10: #253858;
-    --color11: #ebebff;
-    --color12: #e7e7e7;
-    --color13: #396df2;
-    --color14: #2230d2;
-    --color15: #cfd8dc;
-    --color16: #6070ff;
-    --color17: #4053fc;
-    --color18: #6b7780;
-  }
+  --background-main: #f0f2f5;
+  --white: #fff;
+  --black: #000;
+  --primary-1: #6070ff;
+  --color2: #172b4d;
+  --color3: #344563;
+  --color4: #7f8cff;
+  --color5: #7a869a;
+  --color6: #ebebff;
+  --color7: #dfe1e6;
+  --color8: #f4f5f7;
+  --color9: #f7f7f9;
+  --color10: #253858;
+  --color11: #ebebff;
+  --color12: #e7e7e7;
+  --color13: #396df2;
+  --color14: #2230d2;
+  --color15: #cfd8dc;
+  --color16: #6070ff;
+  --color17: #4053fc;
+  --color18: #6b7780;
+}
 
 #headline {
   height: 72vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--white);
   background-color: var(--white);
   background-image: url(./Icons/desktop/Header\ bg.svg);
   background-repeat: no-repeat;
@@ -60,7 +59,7 @@
   margin: 15px 0;
 }
 
-  #headline h3 {
+#headline h3 {
   color: var(--color4);
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;

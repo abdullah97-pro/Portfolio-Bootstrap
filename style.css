@@ -31,12 +31,12 @@
   justify-content: center;
   background-color: var(--white);
   background-color: var(--white);
-  background-image: url(./desktop/Header\ bg.svg);
+  background-image: url(./Icons/desktop/Header\ bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left top;
   border-radius: 0 0 0 80px;
-  padding: 450px 0;
+  padding: 400px 0;
   line-height: 3em;
 }
 

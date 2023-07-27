@@ -30,6 +30,10 @@
   box-sizing: border-box;
 }
 
+/* .container {
+  font-family: "Poppins", sans-serif;
+} */
+
 .container-fluid {
   padding-left: 0 !important;
   padding-right: 0 !important;

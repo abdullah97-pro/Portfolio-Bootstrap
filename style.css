@@ -1,16 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-#headline {
-    height: 72vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--white);
-    background-color: var(--white);
-    background-image: url(./desktop/Header\ bg.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left top;
-    border-radius: 0 0 0 80px;
-    padding: 400px 0;
+:root {
+    --background-main: #f0f2f5;
+    --white: #fff;
+    --black: #000;
+    --primary-1: #6070ff;
+    --color2: #172b4d;
+    --color3: #344563;
+    --color4: #7f8cff;
+    --color5: #7a869a;
+    --color6: #ebebff;
+    --color7: #dfe1e6;
+    --color8: #f4f5f7;
+    --color9: #f7f7f9;
+    --color10: #253858;
+    --color11: #ebebff;
+    --color12: #e7e7e7;
+    --color13: #396df2;
+    --color14: #2230d2;
+    --color15: #cfd8dc;
+    --color16: #6070ff;
+    --color17: #4053fc;
+    --color18: #6b7780;
   }
+
+#headline {
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white);
+  background-color: var(--white);
+  background-image: url(./desktop/Header\ bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  border-radius: 0 0 0 80px;
+  padding: 450px 0;
+  line-height: 3em;
+}
+
+#headline .h1 {
+  color: var(--color2);
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.37px;
+  padding-right: 6em;
+}
+
+#headline p {
+  color: var(--color3);
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  margin: 15px 0;
+}
+
+  #headline h3 {
+  color: var(--color4);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

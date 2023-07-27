@@ -24,17 +24,32 @@
   --color18: #6b7780;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-color: var(--background-main);
+}
+
+#header {
+  background-color: var(--white);
+  border-radius: 0 0 0 80px;
+}
+
 #headline {
   height: 72vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--white);
   background-image: url(./Icons/desktop/Header\ bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left top;
-  border-radius: 0 0 0 80px;
   padding: 400px 0;
   line-height: 3em;
 }
